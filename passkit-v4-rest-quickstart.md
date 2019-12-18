@@ -10,7 +10,7 @@ You can learn even more by reading our [official API documentation](https://docs
 ## Table of Contents
 
 - [Url](#url)
-- [Authentication](#authenticaiton)
+- [Authentication](#authentication)
 - [Create Account](#create-account)
 - [Get Your API Keys](#get-your-api-keys)
 - [Build Your Own Token](#build-your-own-token)
