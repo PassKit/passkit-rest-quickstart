@@ -56,7 +56,7 @@ example:
 {
   "exp": 1576642948,
   "iat": 1576639348,
-  "uid": your - id
+  "uid": "your-key"
 }
 ```
 
