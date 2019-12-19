@@ -123,6 +123,7 @@ Hit this endpoint to get your api keys
 #### API Client
 
 GET - `https://api.pub1.passkit.io/pk/user/restCredentials`
+
 **Header**
 
 ```json
@@ -150,6 +151,7 @@ Once you have created a new token, lets use it to get your user profile
 #### API Client
 
 GET - `https://api.pub1.passkit.io/user/profile`
+
 **Header**
 
 ```json
