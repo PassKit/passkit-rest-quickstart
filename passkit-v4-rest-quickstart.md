@@ -1,11 +1,21 @@
 # PassKit v4 REST Quickstart
 
+**This quckstart is for the PassKit v4 [platform](https://app.passkit.com). These commands do not work for the v2 & v3 API's.**
+
+**If you are looking for the old v2-v3 documentation you can find it [here](https://dev.passkit.net/#introduction)**
+
+**We highly recommend using the v4 platform for new projects as v2 and v3 are scheduled for depreciation**
+
 ## Overview
 
 This quickstart is designed to get developers up and running quickly inside the PassKit v4 environment using REST.
 If you believe we have missed something or there are ways we can improve our documentation. Please feel free to create a feature request and add in your thoughts.
 
 You can learn even more by reading our [official API documentation](https://docs.passkit.io/)
+
+## Who is this for?
+
+This qucikstart is a great place to start If you are looking to just get your feet wet inside the PassKit v4 environment, or if you are looking to implement a simple proof of concept integration with your existing system.
 
 ## Table of Contents
 
@@ -22,9 +32,11 @@ You can learn even more by reading our [official API documentation](https://docs
 All the api endpoints used in this quickstart can be found in this Postman Collection
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/d72de46405be48eb164b)
 
+You can also find them inside the [curl](./curl) folder in this repo
+
 ## URL
 
-Our API is accessable at `https://api.pub1.passkit.io` over HTTPS
+Our API is accessible at `https://api.pub1.passkit.io` over HTTPS
 
 ## Authentication
 
@@ -98,7 +110,7 @@ POST - `https://api.pub1.passkit.io/login`
 
 #### CURL
 
-```
+```sh
 curl -XPOST -H "Content-type: application/json" -d '{
 	"username":"quickstart-user",
 	"password":"my-password",
@@ -156,4 +168,4 @@ A successful request will return details about your user profile inside PassKit
 Now that you have your credentials in place, you can start creating cool things inside the PassKit ecosystem.
 Here are some other help articles to get your started:
 
-- [Membership Cards](link)
+- [Membership Program Enrollment](https://github.com/PassKit/passkit-rest-members-quickstart)
