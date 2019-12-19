@@ -118,6 +118,18 @@ A successful request will return your api key and secret. Make sure to store the
 
 To build your own tokens you can use this [fiddle](https://jsfiddle.net/pkosterman/5Lagqyj7/)
 
+or you can run the below command on the shell script in the [jwt](./jwt) folder in this repo.
+
+```sh
+./jwt.sh key secret
+```
+
+you can optionally give an expiry to the command as well.
+
+```sh
+./jwt.sh key secret 3600
+```
+
 As a convenience to users, each successful authenticated request you make against the PassKit v4 REST API returns a refreshed token in the response headers. Look for the `X-Passkit-Token` in the response headers for this token.
 
 ## Profile Request
