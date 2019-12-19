@@ -118,6 +118,8 @@ A successful request will return your api key and secret. Make sure to store the
 
 To build your own tokens you can use this [fiddle](https://jsfiddle.net/pkosterman/5Lagqyj7/)
 
+Replace YOUR_API_KEY and YOUR_API_SECRET with your credentials then click Run’
+
 or you can run the below command on the shell script in the [jwt](./jwt) folder in this repo.
 
 ```sh
