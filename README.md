@@ -72,7 +72,7 @@ POST - `https://api.pub1.passkit.io/user/new`
 {
   "username": "quickstart-user",
   "password": "my-password",
-  "companyName": "quickstar-companyt",
+  "companyName": "quickstart-company",
   "emailAddress": "quickstart@mail.com"
 }
 ```
@@ -83,7 +83,7 @@ POST - `https://api.pub1.passkit.io/user/new`
 curl -XPOST -H "Content-type: application/json" -d '{
 	"username":"quickstart-user",
 	"password":"my-password",
-	"companyName":"quickstar-companyt",
+	"companyName":"quickstart-company",
 	"emailAddress":"quickstart@mail.com"
 }' 'https://api.pub1.passkit.io/user/new'
 ```
