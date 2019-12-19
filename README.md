@@ -94,31 +94,7 @@ A successful request will return a JWT. You can use this token for the rest of t
 
 Now that you have your account, its time to get your api keys so you can build your own tokens for further requests.
 
-_If the token you received from creating your account has expired, you can use the login endpoint below to generate a new one_
-
-#### API Client
-
-POST - `https://api.pub1.passkit.io/login`
-
-**Body**
-
-```json
-{
-  "username": "quickstart-user",
-  "password": "my-password"
-}
-```
-
-#### CURL
-
-```sh
-curl -XPOST -H "Content-type: application/json" -d '{
-	"username":"quickstart-user",
-	"password":"my-password",
-}' 'https://api.pub1.passkit.io/login'
-```
-
-Hit this endpoint to get your api keys
+_If the token you received from creating your account has expired, you can login to the [portal](https://app.passkit.com) and navigate to https://app.passkit.com/app/account/developer-tools. Click he GET REST CREDENTIALS TOOL button to get your key and secret. Once you have those you can skip ahead to [Building your own token](##building-your-own-token)_
 
 #### API Client
 
