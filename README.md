@@ -23,7 +23,7 @@ This qucikstart is a great place to start If you are looking to just get your fe
 - [Authentication](#authentication)
 - [Create Account](#create-account)
 - [Get Your API Keys](#get-your-api-keys)
-- [Build Your Own Token](#build-your-own-token)
+- [Building Your Own Token](#building-your-own-token)
 - [Profile Request](#profile-request)
 - [Next Steps](#next-steps)
 
